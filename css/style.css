@@ -1,0 +1,465 @@
+body {
+	font-family: 'Plus Jakarta Sans';
+}
+
+.wrap {
+	width: 1250px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 86px;
+	box-shadow: 4px 6px 13px 0px #D7D7D740;
+
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 45px;
+	color: #001858;
+}
+
+.title-span {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	color: #6246EA;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.header__link {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #2B2C34;
+}
+
+.header__link--search {
+	display: flex;
+	gap: 12px;
+
+}
+
+
+
+.header__btn {
+	font-family: Plus Jakarta Sans;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 213px;
+	height: 44px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	background: #6246EA;
+	color: #FFFFFE;
+	border-radius: 4px;
+
+}
+
+.home {
+	background: url(../img/Hero\ Background.png);
+	height: 900px;
+
+}
+
+.home-content {
+	padding-top: 184px;
+	display: flex;
+	gap: 133px;
+}
+
+.home-info {
+	display: flex;
+	flex-direction: column;
+	width: 664px;
+	gap: 30px;
+}
+
+.home-info__title {
+	width: 617px;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 81px;
+
+}
+
+.home-info__wrap {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.home-info__text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #9A9494;
+
+
+}
+
+
+.subscribe-wrap {
+	display: flex;
+	gap: 20px;
+
+}
+
+.subscribe-wrap__input {
+	width: 444px;
+	height: 67px;
+	border-radius: 8px;
+	color: #FFFFFE;
+
+}
+
+.subscribe-wrap__input::placeholder {
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	padding-left: 25px;
+
+
+
+}
+
+.subscribe-wrap__button {
+	width: 145px;
+	height: 67px;
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #FFFFFE;
+	background: #6246EA;
+	border-radius: 8px;
+
+}
+
+.home__img {
+	margin: 239px 625px 0;
+}
+
+.category {
+	background: url(../img/Hero\ Background.png);
+	height: 430px;
+}
+
+
+
+.category-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.category-header__left {
+	display: flex;
+	gap: 10px;
+
+}
+
+.category-header__title {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #2B2C34;
+
+}
+
+.category-header__line {
+	width: 35px;
+}
+
+.category-header__right {
+	display: flex;
+	gap: 12px;
+}
+
+.category-header__text {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #2B2C34;
+
+
+}
+
+.category-header__arrow {
+	width: 6px;
+}
+
+.category__cards {
+	display: flex;
+	margin: 0 auto;
+	width: 1240px;
+	gap: 37px;
+	margin-top: 50px;
+
+}
+
+.category-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+	gap: 30px;
+	width: 220px;
+	height: 280px;
+	background: #FFFFFE;
+	border-radius: 8px;
+
+
+}
+
+.category-card:hover {
+	background: #6246EA;
+
+}
+
+.category-card:hover .category-card__name {
+	color: #FFFFFE;
+}
+
+.category-card__img {
+	width: 60px;
+	height: 60px;
+}
+
+.category-card__name {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #2B2C34;
+
+
+}
+
+.article {
+	margin-top: 82px;
+}
+
+.article-content {
+	display: flex;
+	flex-direction: column;
+	gap: 82px;
+}
+
+.article-cards {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+
+}
+
+.article-card {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 260px;
+	height: 385px;
+
+
+}
+
+.article-card__img {
+	margin-bottom: 25px;
+}
+
+.article-card__title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #2B2C34;
+	width: 260px;
+
+}
+
+.article-card__info {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.article-card__name {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	color: #2B2C34;
+}
+
+.article-card__data {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #2B2C34;
+
+
+}
+
+
+.article-content__button {
+	margin: 0 auto;
+	width: 165px;
+	height: 64px;
+	color: #FFFFFE;
+	background: #6246EA;
+	border-radius: 8px;
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	margin-bottom: 80px;
+
+
+
+}
+
+.subscribe {
+	display: flex;
+	align-items: center;
+	background: #EFF0F3;
+	height: 453px;
+
+}
+
+.subscribe-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.subscribe-content__img {
+	width: 130px;
+	height: 130px;
+	margin-bottom: 20px;
+}
+
+
+.subscribe-content__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #2B2C34;
+}
+
+.subscribe-content__text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #C0C0C0;
+	margin-bottom: 20px;
+
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #E4E5E9;
+	height: 435px;
+
+
+}
+
+.footer-content {
+	display: flex;
+	margin-top: 70px;
+	justify-content: space-between;
+}
+
+.footer-main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+
+.footer-main__social {
+	display: flex;
+	gap: 30px;
+}
+
+
+.footer-more {
+	display: flex;
+	gap: 95px;
+}
+
+.footer-info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer-info__title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #2B2C34;
+	margin-bottom: 5px;
+
+}
+
+.footer-info__link {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	color: #2B2C34;
+
+
+}
+
+
+.footer__line {
+	margin-top: 50px;
+}
+
+.footer__end {
+	margin-top: 26px;
+	display: flex;
+	width: 1250px;
+	justify-content: space-between;
+
+}
+
+.footer__data {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #2B2C34;
+
+}
+
+.footer__made {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #2B2C34;
+
+}
